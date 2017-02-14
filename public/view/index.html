@@ -1,0 +1,255 @@
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Series-Peliculas</title>
+    <meta content="Disfruta de las mejores peliculas y series" name="Series_Peliculas">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css3/normalize.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet" type="text/css">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
+    <link href="css3/style.css" rel="stylesheet">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="video_container">
+      <video autoplay height="720" loop poster="../assets/images/Spacious.jpg" width="1280">
+        <source src="../assets/MP4/Spacious.mp4" type="video/mp4">
+        <source src="../assets/WEBM/Spacious.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="row flex-height middle-xs center-xs relative up" id="home">
+      <div class="col-xs-12">
+        <div class="box while-text">
+          <img src="../assets/images/logo_pagina.jpeg" width="120">
+          <h1 class="fonts-class title">Peliculas y Series</h1>
+          <p class="fonts-class" id="is-open">Las mejores series y peliculas aqui!</p>
+        </div>
+      </div>
+      <nav class="fixed top right while-text main-navigation" id="navigation">
+        <ul class="navbar-text list-inline">
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+          </li>
+          <li>
+            <a>Menu</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#login-modal-administrador">Administrador</a>
+          </li>
+          <li>
+            <a>Contactos</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="absolute while-text large-padding fonts-class bottom full-width" id="description">
+        <div class="row middle-xs center-xs">
+          <div class="col-xs-7 col-sm-6 medium">
+            Disfruta de las mejores series videos, consulta en cartelera no te lo pierdas
+          </div>
+          <div class="col-xs hidden" id="sticky-navigation">
+            <div class="box">
+              <nav class="text-right main-navigation">
+                <ul class="list-inline">
+                  <li>
+                    <a>Home</a>
+                  </li>
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                  </li>
+                  <li>
+                    <a>Menu</a>
+                  </li>
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#login-modal-administrador">Administrador</a>
+                  </li>
+                  <li>
+                    <a>Contactos</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" id="menu">
+      <div class="absolute white" id="menu-title">
+        <h2 class="fonts-class title">Cartelera</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 movie" style="background-image:url(../assets/images/Imagenes_series/hell_kitchen.jpeg)">
+          <div class="screen">
+            <div class="row middle-xs">
+              <div class="col-xs-12">
+                <h3 class="fonts-class while-text">Hell_kitchen</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 movie" style="background-image:url(../assets/images/Imagenes_series/aida.jpeg)">
+          <div class="screen">
+            <div class="row middle-xs">
+              <div class="col-xs-12">
+                <h3 class="fonts-class while-text">Aida</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 movie" style="background-image:url(../assets/images/Imagenes_series/cyberbully.jpeg)">
+          <div class="screen">
+            <div class="row middle-xs">
+              <div class="col-xs-12">
+                <h3 class="fonts-class while-text">cyberbully</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 movie" style="background-image:url(../assets/images/Imagenes_series/Anna.jpeg)">
+          <div class="screen">
+            <div class="row middle-xs">
+              <div class="col-xs-12">
+                <h3 class="fonts-class while-text">Anna</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 movie" style="background-image:url(../assets/images/Imagenes_series/algorithm.jpeg)">
+          <div class="screen">
+            <div class="row middle-xs">
+              <div class="col-xs-12">
+                <h3 class="fonts-class while-text">algorithm</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 movie" style="background-image:url(../assets/images/Imagenes_series/married_with_children.jpeg)">
+          <div class="screen">
+            <div class="row middle-xs">
+              <div class="col-xs-12">
+                <h3 class="fonts-class while-text">married</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 movie" style="background-image:url(../assets/images/Imagenes_series/wind-chill.jpeg)">
+          <div class="screen">
+            <div class="row middle-xs">
+              <div class="col-xs-12">
+                <h3 class="fonts-class while-text">wind child</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 movie" style="background-image:url(../assets/images/Imagenes_series/kitchen-nightmares.jpeg)">
+          <div class="screen">
+            <div class="row middle-xs">
+              <div class="col-xs-12">
+                <h3 class="fonts-class while-text">kitchen nightmares</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	<div class="container">
+    	<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-6">
+								<a href="#" class="active" id="login-form-link">Login</a>
+							</div>
+							<div class="col-xs-6">
+								<a href="#" id="register-form-link">Register</a>
+							</div>
+						</div>
+						<hr>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<form id="login-form" action="" method="post" role="form" style="display: block;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group text-center">
+										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+										<label for="remember"> Remember Me</label>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="text-center">
+													<a href="" tabindex="5" class="forgot-password">Forgot Password?</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="register-form" action="" method="post" role="form" style="display:none;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+  	</div>
+    <div class="modal fade" id="login-modal-administrador" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Login to Your Account</h1><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
+
+  </body>
+</html>

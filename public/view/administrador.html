@@ -1,0 +1,81 @@
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Series-Peliculas</title>
+    <meta content="Disfruta de las mejores peliculas y series" name="Series_Peliculas">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css3/normalize.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet" type="text/css">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
+    <link href="css3/style.css" rel="stylesheet">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="gallery" class="col-md-12">
+      <section id="miSlide" class="carousel slide">
+        <ol class="carousel-indicators">
+           <li data-target="#miSlide" data-slide-to="0" class="active"></li>
+           <li data-target="#miSlide" data-slide-to="1"></li>
+           <li data-target="#miSlide" data-slide-to="2"></li>
+           <li data-target="#miSlide" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="../assets/images/imagenes_slide/Hell's_Kitchen.png" alt="" class="adapter">
+          </div>
+          <div class="item">
+            <img src="../assets/images/imagenes_slide/aida.png" alt="" class="adapter">
+          </div>
+          <div class="item">
+            <img src="../assets/images/imagenes_slide/kitchen-nightmares.png" alt="" class="adapter">
+          </div>
+          <div class="item">
+            <img src="../assets/images/imagenes_slide/flash.png" alt="" class="adapter">
+          </div>
+
+        </div>
+     
+      </section>
+
+    </div>
+    <div class="container">
+      <nav class="fixed top right while-text main-navigation" id="navigation">
+        <ul class="navbar-text list-inline">
+          <li>
+            <a>Buscar</a>
+          </li>
+          <li>
+            <a>Eliminar</a>
+          </li>
+          <li>
+            <a>Insertar</a>
+          </li>
+          <li>
+            <a>Cerrar Sesion</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="row">
+        <div class="col-md-3">
+          <form class="formulario">
+            <div class="input-group">
+              <input placeholder="buscar pelicula" class="form-control" id="system-search"></input>
+              <span class="input-group-btn">
+                <button text="buscar" type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-9">
+          <table class="table table-list-search">
+            
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
