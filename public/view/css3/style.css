@@ -152,7 +152,8 @@ html, body {
   bottom: 0px; }
 
 .adapter {
-  width: 100%; }
+  width: 100%;
+}
 
 #description ul {
   margin: 0px; }
@@ -198,6 +199,10 @@ html, body {
 #gallery {
   background-color: black; }
 
+.busqueda{
+  bottom: 70%;
+}
+
 /*
 
 css de los login
@@ -205,6 +210,35 @@ css de los login
 
 
 */
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
 .panel-login {
   border-color: #ccc;
   -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
